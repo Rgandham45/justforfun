@@ -34,6 +34,7 @@ import java.util.Scanner;
                 }
                 else{
                     System.out.println("It is not a pallindrome");
+                    //simple just dont worry about this line;
                 }
         }
     }
