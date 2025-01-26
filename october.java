@@ -21,7 +21,7 @@ import java.util.Scanner;
             case 2:
                 Scanner sc1 =new Scanner(System.in);
                 System.out.println("enter number to search");
-                int num1 = sc.nextInt();
+                int num1 = sc1.nextInt();
                 int Original_num = num1;
                 int rev = 0;
                 while(num1!=0){
@@ -36,6 +36,7 @@ import java.util.Scanner;
                     System.out.println("It is not a pallindrome");
                     //simple just dont worry about this line;
                 }
-        }
+            sc.close();
+            }
     }
 }
